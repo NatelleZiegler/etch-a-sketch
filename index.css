@@ -1,11 +1,12 @@
 .wrapper {
   display: inline-grid;
-  grid-template-columns: repeat(16, 1fr);
+  width: 500px;
+  height: 500px;
+  grid-gap: 0px;
+  margin: 0px;
 }
 
 .box {
-	height: 25px;
-	width: 25px;
 	border: 1px black;
 	border-style: solid;
 }
