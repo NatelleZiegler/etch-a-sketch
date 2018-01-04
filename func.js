@@ -13,3 +13,10 @@ function mouseOver() {
 }
 
 const resetButton = document.getElementById('reset');
+resetButton.addEventListener("click", resetGrid);
+
+function resetGrid() {
+	for(var i = 0; i < boxArr.length; i++) {
+		boxArr[i].style.backgroundColor = "white";
+	}
+}
